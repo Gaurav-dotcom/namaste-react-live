@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <title>Namaste React Live</title>
 </head>
 <body>
@@ -13,23 +11,5 @@
         <h1>Hello World</h1>
     </div>
 </body>
-
-<script>
-
-    // Vanilla Js
-
-    // const heading = document.createElement('h1');
-    // heading.innerHTML = "Namaste JS";
-    // const root = document.getElementById('root');
-    // root.appendChild(heading);
-    
-    // React JS
-    const heading = React.createElement('h1', {key: 'h1'}, "Namaste React");
-    const container = React.createElement('div', {id: 'container'}, [heading]);
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(container);
-
-
-</script>
+<script type="module" src="/app.js"></script>
 </html>

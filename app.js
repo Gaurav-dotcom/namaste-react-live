@@ -1,7 +1,21 @@
 
     import React from "react";
     import ReactDOM from "react-dom/client";
+
+    /*
+    Hot Module Reloading
+    File Watcher Algorithm
+    Bundling
+    Cleaning our code
+    Dev and production build
+    Super fast build algorithm
+    Image Optimization
+    Caching while development
+    Compatible with older version of browser
+    Tree Shaking - removing unwanted code
+    Port Number
     
+    */
     // Vanilla Js
 
     // const heading = document.createElement('h1');
